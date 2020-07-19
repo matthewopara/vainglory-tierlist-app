@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_item_height">87dp</dimen>
+    <dimen name="item_descript_height">27dp</dimen>
+    <dimen name="list_text_size">20sp</dimen>
+    <dimen name="list_hero_name_size">32sp</dimen>
+</resources>

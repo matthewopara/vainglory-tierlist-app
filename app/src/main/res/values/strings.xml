@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">VG Tier List</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="category_top">Top</string>
+    <string name="category_mid">Mid</string>
+    <string name="category_bot">Bot</string>
+    <string name="category_captain">Cap</string>
+    <string name="category_jungle">Jun</string>
+
+
+    <!-- Hero Descriptions -->
+
+    <string name="ardan">Ardan is a damage-soaking protector who dramatically changes the landscape
+        of teamfights. Able to rescue friends from certain death and turn lost battles around with
+        his powerful terrain-changing ultimate, Ardan brings immense utility to the team.</string>
+
+    <string name="grumpjaw">Grumpjaw is a durable fighter, able to last in battles while maintaining
+        stacks of his Living Armor through basic attacks. Grumpjaw can charge headlong into a fight,
+        heavily damaging and slowing enemies at the end of his charge. Once he breaks through enemy
+        lines, Grumpjaw can easily turn the tides of battle by devouring one of his enemies and
+        briefly removing them from the fight.</string>
+
+    <string name="yates">Yates is a battlefield commander with a global presence. Yates is the kind
+        of captain that knows how to make an appearance. Whenever his allies are in need of help, he
+        can leap to their aid regardless of where they are on the map.</string>
+
+    <string name="flicker">Flicker is a sneaky trickster able to disrupt foes with his debilitating
+        abilities. Utilizing his stealth, Flicker can plunge deep into enemy lines causing mayhem or
+        grant his team stealth to initiate on unsuspecting prey.</string>
+
+    <string name="reza">Reza is a fast, devastating fire mage with a demon netherform. Reza melts
+        his enemies by chaining his abilities into devastating combos. His exceptional mobility
+        coupled with high burst damage allows him to dance on the edge of fights or chase down
+        fleeing enemies with ease.</string>
+
+    <string name="anka">Anka is an elusive and bursty assassin who strikes with a flurry of blades.
+        Anka specializes in taking out vulnerable carries with surgical precision. When she has a
+        mark, nothing can keep her target safe from the cold steel of her blade.</string>
+
+    <string name="tony">Tony is a dwarven brawler who taunts and pummels enemies.</string>
+
+    <string name="catherine">Catherine brings the most reliable stun and disruption skills to
+        teamfights and ganks. Hard to kill and great at chasing, she can secure kills and turn
+        around fights that would otherwise be lost.</string>
+
+    <string name="lance">Lance depends on both his courage and his wits to protect his allies. With
+        his unique polearm-and-shield combat style, he breaks enemy lines and creates opportunities
+        for his friends. Lance can build crystal or utility items to excel in his role as a
+        protector, or he can build weapon items to deal more damage during battle.</string>
+
+    <string name="adagio">Adagio can heal. He can amplify damage. He can stun and nuke the entire
+        enemy team. This master manipulator of large-scale battles brings shines through
+        area-of-effect damage and team-saving abilities.</string>
+
+    <string name="lorelai">Lorelai is a happy sea creature that excels at zone
+        control and team utility</string>
+
+    <string name="vox">Vox is a mobile sniper with a high-energy playstyle, able to quickly and
+        frequently dash around the battlefield. Vox deals significant damage either to a single
+        target or to groups of enemies depending on his build. This allows Vox to react to the
+        needs of his team.</string>
+
+    <string name="skye">Skye is a swift sniper able to dance at the edge of fights or dive deep into
+        the enemy backline to kill key targets. Skye’s unique strafing attacks change the complexion
+        of fights, and her ability to chase down and catch opponents is unparalleled.</string>
+
+    <string name="blackfeather">Blackfeather is a striking duelist who pierces the hearts of his
+        opponents. When building weapon items, he becomes a powerful assassin. Building crystal and
+        utility items instead unlocks powerful effects for himself and his team. He performs well in
+        the lane where he can focus on accumulating gold early in the match.</string>
+
+    <string name="joule">Joule is a hardened front-line fighter with built-in defensive plating. All
+        of Joule\'s abilities require proper aim to hit the intended target, but they have a 
+        devastating effect if you can aim properly. Pick Joule if you can 
+        predict enemy movements.</string>
+
+    <string name="malene">Malene is a form-swapping spellcaster who deals massive crystal damage with light
+        and shadow abilities. She can switch into her Light Form to provide utility for her team or
+        into her Shadow Form to devastate her enemies</string>
+
+    <string name="skaarf">Skaarf blazes his way through the fold, incinerating everything in his
+        path. He specializes in powerful abilities that set his enemies on fire, bringing them down
+        from a distance.</string>
+
+    <string name="celeste">Celeste lights the way for her team, calling upon her stars for both
+        artillery and long-range reconnaissance. Though fragile, she is well-suited to fighting from
+        the furthest edges of battle.</string>
+
+    <string name="samuel">Samuel is a dark mage who controls large areas with his abilities. Samuel
+        is able to deal damage on the move, but he may be caught out of position if played too
+        aggressively. He is well suited in the lane, able to bully his victim while draining health
+        and energy to sustain himself.</string>
+
+    <string name="varya">Varya is a shocking valkyrie who chains massive damage across enemy teams.
+        She wields lethal lightning that can leap between enemy heroes and leaves them as shaking
+        burned out husks.</string>
+
+    <string name="baron">Baron rains destruction on his opponents. When building crystal items, he
+        becomes mobile artillery, laying siege to enemy teams. His weapon path enables aggressive
+        in-your-face tactics. No matter how he builds, he brings incredible range and powerful burst
+        damage to any team.</string>
+
+    <string name="lyra">Lyra draws upon her training as a Gythian battlemage to use healing and
+        protective magic to turn enemy positions into powerful zones for her allies. Her portals 
+        also allow her team to bypass these positions entirely, avoiding defenses and terrain. 
+        Utility and defense items improve her role as a healer, while crystal items provide a 
+        devastating but fragile mage path.</string>
+
+    <string name="kinetic">Kinetic is a nimble duelist wielding a powerful pulse cannon. SHe is a
+        ranged carry who exerts her dominance in extended team fights. Once she fully charges her
+        pulse cannon, she is capable of overwhelming any for with an endless
+        barrage of energy blasts.</string>
+
+    <string name="kestrel">Kestrel is an elite Stormguard archer who takes down targets from a 
+        distance. When building weapon, she deals rapid, sustained damage and uses stealth to find 
+        better footing when enemies get too close. Kestrel’s crystal path affords longer stealth 
+        times, which sets up aggressive tactical plays. She’s best in the lane where she can use the
+        protection of her turret to safely collect gold.</string>
+
+    <string name="gwen">Gwen moves swiftly across the map, picking off enemies from a distance. She
+        can shake off negative effects inflicted by her enemies, turning the tables in her favor.
+        Gwen is best played in the lane where she can earn gold and gear up for big fights.</string>
+
+    <string name="saw">SAW has arguably the highest damage potential in the game, but at the huge
+        expense of mobility. Excellent at sieging important locations, SAW zones, slows and damages
+        with Suppressing Fire.</string>
+
+    <string name="silvernail">Silvernail is a grizzled hunter with a powerful crossbow and
+        tripwires. He specializes in separating the battlefield through smart placement
+        of his tripwires</string>
+
+    <string name="ringo">Ringo is often played as the primary damage dealer for his team. He can 
+        shoot at blinding speeds and finish off fleeing enemies with an epic fireball that follows 
+        foes across the battlefield.</string>
+
+    <string name="idris">Idris shifts through battle, piercing his targets with his spear and
+        chakrams. When building weapon items he excels at assassinating vulnerable targets at close
+        range, while crystal items allow him to dance around the fight, keeping his distance.
+        Whether building weapon, crystal, or a combination of the two, Idris brings extraordinary
+        damage and agility to any fight.</string>
+
+    <string name="kensei">Kensei is an agile swordmaster who excels at fighting
+        durable heroes</string>
+
+    <string name="glaive">Glaive is a devastating powerhouse, instantly dashing into the action and
+        knocking enemies into danger. His damage is devastating, but he is vulnerable to slippery
+        opponents.</string>
+
+    <string name="rona">Rona is a deadly berserker who is always ready to leap into battle.
+        She holds her own in melee combat, unleashing enormous damage. Rona is best played in the
+        jungle, pairs well with protectors and works well with both weapon
+        and crystal builds.</string>
+
+    <string name="churnwalker">Churnwalker is a disruptor who throws multiple skillshot hooks,
+        chaining victims to him.</string>
+
+    <string name="phinn">Phinn is an unstoppable tank who brings the fight to him. He pairs
+        incredibly well with other heroes who don\'t back down from battle. Phinn is strongest
+        with defense and utility items, and he\'s able to absorb immense amounts of punishment,
+        protecting teammates while they dish out damage.</string>
+
+    <string name="grace">Grace utilizes the power of the light to protect her allies by granting
+        them Holy Shields that greatly reduce incoming damage. If the fight seems bleak, she can
+        turn the tides of battle by calling upon the Seraphim to bring her allies back from the
+        brink of death</string>
+
+    <string name="fortress">This Halcyon Well guardian is a snarling, frightening sight in the 
+        jungle. He stalks prey, closes in with teammates, flanks targets and creates challenging, 
+        multi-front confrontations. Stay near your allies and bite and claw 
+        your way to kills.</string>
+
+    <string name="krul">Krul is a jungle nightmare who dominates in 1v1 duels. Able to absorb
+        massive amounts of damage and recover large portions of health, Krul can bring the pain and
+        survive a beating.</string>
+
+    <string name="alpha">Alpha hunts and terminates her targets with ruthless precision. No longer
+        bound to the rules of mortality, she engages in battle without fear or caution. Alpha
+        performs well in the jungle and can take down her targets built either
+        weapon or crystal.</string>
+
+    <string name="koshka">Koshka is an in-your-face assassin adept at getting the kill and then
+        getting out. She should focus on assassinating weak targets and locking down
+        the most lethal enemy.</string>
+
+    <string name="reim">Reim is a grumpy old winter mage who freezes everyone who crosses him.
+        Though he moves slowly, he deals heavy damage to opponents while being surprisingly
+        resilient himself. He holds his own in the lane, but he’s particularly effective in the
+        jungle where he can go toe-to-toe against most opponents that he can catch.</string>
+
+    <string name="baptiste">Baptiste dictates battle by striking fear into the heart of his
+        enemies. Reaping the souls of his opponents, he both sustains himself and empowers his
+        attacks and abilities. He commands his army of shades to either lock down unsuspecting
+        victims or terrorize entire teams, forcing them to flee from him.</string>
+
+    <string name="taka">Taka weaves through the battlefield, eliminating targets with his 
+        switchblades. He lives on the knife\'s edge, compensating for fragile defenses with 
+        agility and stealth.</string>
+
+    <string name="ozo">Quick and nimble, Ozo leaps from hero to hero as he bounces around the
+        battlefield. He is at home in the center of a chaotic fight where he can deal large amounts
+        of area-of-effect damage. Remember to build defensive items to maximize the amount of time
+        he can stay in combat.</string>
+
+    <string name="petal">Petal plants seeds that slowly heal her and her friends. She can grow these
+        seeds into minions that fight alongside her, and she can blow them up to obliterate
+        vulnerable targets.</string>
+
+</resources>
