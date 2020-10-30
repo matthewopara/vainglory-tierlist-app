@@ -1,5 +1,6 @@
 package com.example.vgtierlist;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -9,9 +10,11 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.jetbrains.annotations.NotNull;
+
 public class HeroAdapter extends ArrayAdapter<Hero> {
 
-    private int mHeroRatingIds[];
+    private final int[] mHeroRatingIds;
 
     public HeroAdapter(Context context, Hero[] heroes, int[] heroRatingIds) {
         super(context, 0, heroes);
@@ -19,7 +22,8 @@ public class HeroAdapter extends ArrayAdapter<Hero> {
     }
 
     @Override
-    public View getView(int position, View convertView, final ViewGroup parent) {
+    @NotNull
+    public View getView(int position, View convertView, @NotNull final ViewGroup parent) {
         final Hero hero = getItem(position);
 
         if (convertView == null)
@@ -53,6 +57,11 @@ public class HeroAdapter extends ArrayAdapter<Hero> {
                 heroInfoPage.putExtra("hero_portrait", hero.getPortraitId());
                 heroInfoPage.putExtra("hero_description", hero.getDescriptionId());
                 getContext().startActivity(heroInfoPage);
+
+                if (getContext() instanceof Activity)
+                {
+                    ((Activity) getContext()).overridePendingTransition(0, R.anim.slideup);
+                }
             }
         });
 

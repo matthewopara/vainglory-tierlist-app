@@ -2,8 +2,6 @@ package com.example.vgtierlist;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -44,5 +42,17 @@ public class HeroInfoPageActivity extends AppCompatActivity {
 
         TextView description = findViewById(R.id.hero_description);
         description.setText(bundle.getInt("hero_description"));
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+
+        overridePendingTransition(R.anim.slidedown, R.anim.hold);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        finishAfterTransition();
     }
 }
