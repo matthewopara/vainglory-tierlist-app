@@ -21,11 +21,11 @@ public class MidFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.hero_list, container, false);
 
-        Hero heroes[] = {HeroBank.anka, HeroBank.malene, HeroBank.skaarf, HeroBank.celeste, HeroBank.samuel,
+        Hero[] heroes = {HeroBank.anka, HeroBank.malene, HeroBank.skaarf, HeroBank.celeste, HeroBank.samuel,
                 HeroBank.varya, HeroBank.baron, HeroBank.lyra, HeroBank.kinetic, HeroBank.skye,
                 HeroBank.kestrel, HeroBank.adagio, HeroBank.gwen, HeroBank.saw};
 
-        int heroRatingIds[] = {R.drawable.s_rank, R.drawable.s_rank, R.drawable.s_rank,
+        int[] heroRatingIds = {R.drawable.s_rank, R.drawable.s_rank, R.drawable.s_rank,
                 R.drawable.s_rank, R.drawable.a_rank, R.drawable.a_rank, R.drawable.a_rank,
                 R.drawable.b_rank, R.drawable.b_rank, R.drawable.b_rank, R.drawable.b_rank,
                 R.drawable.c_rank, R.drawable.c_rank, R.drawable.c_rank};

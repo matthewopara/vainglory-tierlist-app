@@ -21,13 +21,13 @@ public class JungleFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.hero_list, container, false);
 
-        Hero heroes[] = {HeroBank.tony, HeroBank.grumpjaw, HeroBank.yates, HeroBank.churnwalker,
+        Hero[] heroes = {HeroBank.tony, HeroBank.grumpjaw, HeroBank.yates, HeroBank.churnwalker,
                 HeroBank.reza, HeroBank.krul, HeroBank.flicker, HeroBank.kensei, HeroBank.alpha,
                 HeroBank.lance, HeroBank.koshka, HeroBank.fortress, HeroBank.reim,
                 HeroBank.baptiste, HeroBank.taka, HeroBank.idris, HeroBank.rona,
                 HeroBank.blackfeather, HeroBank.ozo, HeroBank.petal};
 
-        int heroRatingIds[] = {R.drawable.s_rank, R.drawable.s_rank, R.drawable.s_rank,
+        int[] heroRatingIds = {R.drawable.s_rank, R.drawable.s_rank, R.drawable.s_rank,
                 R.drawable.s_rank, R.drawable.a_rank, R.drawable.a_rank, R.drawable.a_rank,
                 R.drawable.a_rank, R.drawable.a_rank, R.drawable.a_rank, R.drawable.b_rank,
                 R.drawable.b_rank, R.drawable.b_rank, R.drawable.b_rank, R.drawable.b_rank,

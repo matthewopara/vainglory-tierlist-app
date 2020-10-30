@@ -10,10 +10,9 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 public class PositionPagerAdapter extends FragmentPagerAdapter {
 
-    private Fragment[] heroPositions = {new TopFragment(), new MidFragment(),
+    private final Fragment[] heroPositions = {new TopFragment(), new MidFragment(),
             new BotFragment(), new CaptainFragment(), new JungleFragment()};
-    private int positionCount = 5;
-    private Context mContext;
+    private final Context mContext;
 
     public PositionPagerAdapter(Context context, @NonNull FragmentManager fm, int behavior) {
         super(fm, behavior);
@@ -28,7 +27,7 @@ public class PositionPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return positionCount;
+        return 5;
     }
 
     @Nullable

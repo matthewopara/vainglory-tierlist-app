@@ -21,11 +21,11 @@ public class CaptainFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.hero_list, container, false);
 
-        Hero heroes[] = {HeroBank.ardan, HeroBank.yates, HeroBank.churnwalker, HeroBank.phinn,
+        Hero[] heroes = {HeroBank.ardan, HeroBank.yates, HeroBank.churnwalker, HeroBank.phinn,
                 HeroBank.catherine, HeroBank.lorelai, HeroBank.grace, HeroBank.flicker,
                 HeroBank.fortress, HeroBank.lance, HeroBank.lyra, HeroBank.adagio};
 
-        int heroRatingIds[] = {R.drawable.s_rank, R.drawable.s_rank, R.drawable.s_rank,
+        int[] heroRatingIds = {R.drawable.s_rank, R.drawable.s_rank, R.drawable.s_rank,
                 R.drawable.s_rank, R.drawable.a_rank, R.drawable.a_rank, R.drawable.a_rank,
                 R.drawable.a_rank, R.drawable.b_rank, R.drawable.b_rank, R.drawable.b_rank,
                 R.drawable.b_rank};

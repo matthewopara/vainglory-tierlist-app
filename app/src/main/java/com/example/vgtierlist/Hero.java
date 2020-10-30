@@ -2,14 +2,14 @@ package com.example.vgtierlist;
 
 public class Hero {
 
-    private String mName;
-    private String mAttackType;
-    private String mRole;
+    private final String mName;
+    private final String mAttackType;
+    private final String mRole;
 
-    private int mIconId;
-    private int mPortraitId;
-    private String mPosition;
-    private int mDescriptionId;
+    private final int mIconId;
+    private final int mPortraitId;
+    private final String mPosition;
+    private final int mDescriptionId;
 
 
     public Hero(String name, String attackType, String position, String role, int iconId,
